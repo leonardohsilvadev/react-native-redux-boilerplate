@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["react-native", "jsx-a11y", "import", "prettier"],
+  "extends": ["airbnb"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "global-require": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "linebreak-style": 0,
+    "object-curly-spacing": ["error", "always"],
+    "object-curly-newline": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "arrow-parens": ["error", "never"],
+    "no-confusing-arrow": ["error", { "allowParens": true }]
+  }
+}
