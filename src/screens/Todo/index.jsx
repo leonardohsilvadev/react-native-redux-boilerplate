@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Text, View, TextInput } from 'react-native';
 import { Button, Card, CardItem, Icon } from 'native-base';
 import { useSelector, useDispatch } from 'react-redux';
-import { Types } from '../../store/ducks/todos';
-import { Styles } from './styles';
+import { Types } from '~/store/ducks/todos';
+import { Styles } from '~/screens/Todo/styles';
 
 export function TodoScreen() {
   const [input, setInput] = useState('');
