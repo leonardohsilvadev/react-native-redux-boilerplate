@@ -1554,6 +1554,13 @@ babel-plugin-jest-hoist@^24.9.0:
   dependencies:
     "@types/babel__traverse" "^7.0.6"
 
+babel-plugin-root-import@^6.5.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-root-import/-/babel-plugin-root-import-6.6.0.tgz#85940840f308a8c292f66ca0b5bdd314046273ed"
+  integrity sha512-SPzVOHd7nDh5loZwZBxtX/oOu1MXeKjTkz+1VnnzLWC0dk8sJIGC2IDQ2uWIBjE5mUtXlQ35MTHSqN0Xn7qHrg==
+  dependencies:
+    slash "^3.0.0"
+
 babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   version "7.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-7.0.0-beta.0.tgz#aa213c1435e2bffeb6fca842287ef534ad05d5cf"
@@ -2197,9 +2204,9 @@ decamelize@^1.1.1, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-assign@^3.0.0:
   version "3.0.0"
